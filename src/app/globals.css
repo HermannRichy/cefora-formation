@@ -120,3 +120,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.btn-radial-gradient {
+  background: radial-gradient(127.68% 423.02% at 31.82% -13.39%, #FF9B00 12.5%, #ED1C24 100%);
+  transition: background 0.3s ease;
+}
+
+.btn-radial-gradient:hover {
+  background: radial-gradient(127.68% 423.02% at 31.82% -13.39%, #E58A00 12.5%, #D11920 100%);
+}
+
+
+:root {
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-dancing: 'Dancing Script', cursive;
+}
+
+body {
+  font-family: var(--font-montserrat); /* Police globale : Montserrat */
+}
+
+.font-dancing {
+  font-family: var(--font-dancing);
+}
+
