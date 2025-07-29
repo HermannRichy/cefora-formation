@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from 'next/image';
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -34,13 +35,13 @@ export default function Hero() {
             Votre parcours professionnel commence avec nous.
           </p>
           <div className="mt-6 md:mt-8">
-            <a
+            <Link
               href="#"
               aria-label="Commencer l'inscription"
               className="inline-block bg-[#DB3234] text-white font-semibold text-base md:text-lg py-3 px-6 md:py-3.5 md:px-8 rounded-full transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#ffc947]"
             >
               Commencer
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -57,7 +58,7 @@ export default function Hero() {
               <div className="absolute bottom-[5%] left-[10%] w-4 h-4 bg-[#00d084] transform rotate-45 opacity-75 z-20"></div>
   
             {/* Losanges droits */}
-              <div className="absolute top-[10%] right-[5%] w-3.5 h-3.5 bg-[#232C64] transform rotate-45 opacity-80 z-20"></div>
+              <div className="absolute top-[5%] right-[5%] w-3.5 h-3.5 bg-white transform rotate-45 opacity-80 z-20"></div>
               <div className="absolute bottom-[15%] right-[10%] w-4 h-4 bg-[#FED136] transform rotate-45 opacity-75 z-20"></div>
           </div>
 
@@ -99,7 +100,7 @@ export default function Hero() {
 
           {/* Témoignages - version desktop */}
           <div className="hidden md:block">
-            <div className="absolute top-20 right-0 bg-white p-3 rounded-lg shadow-lg flex items-center space-x-3 max-w-[220px] z-20 mt-6">
+            <div className="absolute top-40 right-0 bg-white p-3 rounded-lg shadow-lg flex items-center space-x-3 max-w-[220px] z-20 mt-6">
               <div className="w-10 h-10 rounded-full overflow-hidden">
                 <Image src="/images/cache.jpg" alt="Sophie M." width={40} height={40} className="object-cover" />
               </div>

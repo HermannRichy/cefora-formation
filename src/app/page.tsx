@@ -4,6 +4,7 @@
 import Hero from '../components/Hero';
 import { ClassAnalyticsSection } from '../components/ClassAnalyticsSection';
 import Sofware from '../components/Sofware';
+import Steps from '../components/Steps';
 import Realblog from '../components/Realblog';
 import Awards from '../components/Awards';
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <ClassAnalyticsSection />
       <Sofware />
+      <Steps />
       <Realblog/>
       <Awards />
     </>

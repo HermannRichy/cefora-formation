@@ -26,10 +26,8 @@ const Realblog = () => {
               <p className="text-gray-200 text-sm mb-4">
                 Formation complète en techniques de soudage avec certification reconnue
               </p>
-              <Link href="/filieres/soudure" className="self-start">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm transition-colors">
-                  Découvrir la filière
-                </button>
+              <Link href="/filieres/soudure" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm transition-colors self-start">
+                Découvrir la filière
               </Link>
             </div>
           </div>
@@ -48,10 +46,8 @@ const Realblog = () => {
               <p className="text-gray-200 text-sm mb-4">
                 Devenez chef professionnel avec notre programme intensif
               </p>
-              <Link href="/filieres/restauration" className="self-start">
-                <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md text-sm transition-colors">
-                  Découvrir la filière
-                </button>
+              <Link href="/filieres/soudure" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm transition-colors self-start">
+                Découvrir la filière
               </Link>
             </div>
           </div>
@@ -70,11 +66,9 @@ const Realblog = () => {
               <p className="text-gray-200 text-sm mb-4">
                 Maîtrisez la gestion de la chaîne d’approvisionnement
               </p>
-              <Link href="/filieres/logistique" className="self-start">
-                <button className="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-md text-sm transition-colors">
-                  Découvrir la filière
-                </button>
-              </Link>
+             <Link href="/filieres/soudure" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm transition-colors self-start">
+                Découvrir la filière
+             </Link>
             </div>
           </div>
 
